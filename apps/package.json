@@ -1,0 +1,16 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tung Dao",
+  "license": "MIT",
+  "workspaces": [
+    "consumer",
+    "producer"
+  ],
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

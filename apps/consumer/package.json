@@ -1,0 +1,10 @@
+{
+    "name": "consumer",
+    "version": "1.0.0",
+    "dependencies": {
+        "amqplib": "^0.10.3"
+    },
+    "scripts": {
+        "start": "node consumer.js"
+    }
+}
